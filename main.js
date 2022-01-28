@@ -1,3 +1,7 @@
 //1
-const replacementSymbol = 'aaa@bbb@ccc';
-document.write(replacementSymbol.replace(/@/g, '!'));
+const first = 'aaa@bbb@ccc';
+document.write(first.replace(/@/g, '!') + "<br>");
+
+//2
+const second = 'js';
+document.write(second.toUpperCase() +"<br>");
