@@ -13,3 +13,7 @@ document.write(third.toLowerCase() + "<br>");
 //4
 const fourth = 'I am a hero!';
 document.write(fourth.length + "<br>");
+
+//5
+const userCard = prompt('Your card number? (16 цифр)');
+document.write(`Номер вашей карты: ${userCard.slice(0, 0).concat("************")}${userCard.slice(12, 16)}`);
